@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:padding="26dp"
+    android:orientation="vertical"
+    tools:context=".qeustionaireActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#8BC34A"
+        android:text="Fit Life"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="Fitness Questionnaire"
+        android:layout_marginBottom="6dp"
+        />
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Height in Inches"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Weight in lbs"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="What is Your sex?" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:contentDescription="@string/app_name"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="What Is Your Activity Level" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:contentDescription="@string/app_name"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="What Are Your Fitness Goals?"
+        />
+
+    <Spinner
+
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:contentDescription="@string/app_name"
+        android:spinnerMode="dropdown" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sign_in_button"
+        android:textColor="#8BC34A"
+        android:textStyle="bold"
+        android:text="Register"
+        />
+
+
+</LinearLayout>

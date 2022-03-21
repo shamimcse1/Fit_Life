@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:padding="26dp"
+    android:orientation="vertical"
+    tools:context=".MealWaterTracking">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#8BC34A"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sign_in_button"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:background="@drawable/sign_in_button"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:id="@+id/fullName"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sign_in_button"
+        android:text="Your total expected calories for the day is: "
+        android:layout_marginBottom="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories"
+        android:textColor="#900603"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:id="@+id/calories"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/sign_in_button"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sign_in_button"
+        android:text="Your total fl.oz. of water for the day is: "
+        android:layout_marginBottom="15sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water"
+        android:textColor="#89CFF0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:background="@drawable/sign_in_button"
+        android:id="@+id/water"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/homeBtn"
+        android:layout_width="128dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sign_in_button"
+        android:textColor="#8BC34A"
+        android:textStyle="bold"
+        android:text="Home"/>
+
+
+</LinearLayout>

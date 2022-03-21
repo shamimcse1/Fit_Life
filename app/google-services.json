@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069386541230",
+    "project_id": "my-fit-life-8c8ee",
+    "storage_bucket": "my-fit-life-8c8ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069386541230:android:cf003b0db31f52e823a53f",
+        "android_client_info": {
+          "package_name": "com.codercamp.fitlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069386541230-0f9q3tlk6rj8cou727ho7jaa2mjjmupr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1mUVaoNU1udweao3cH-a-4PXcH-NfS20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069386541230-0f9q3tlk6rj8cou727ho7jaa2mjjmupr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
